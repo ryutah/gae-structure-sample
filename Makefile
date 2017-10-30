@@ -13,4 +13,4 @@ serve: ## ローカルサーバ実行
 	goapp serve app
 
 deploy: ## gaeへデプロイ OPTIONS: project_id=${PROJECT_ID} version=${VERSION}
-	goapp deploy -application ${project_id} -version ${version} app/account_sync
+	goapp deploy -application ${project_id} -version ${version} app
